@@ -10,4 +10,10 @@ git push origin master
 
 git checkout -b "branch_name"
 **** If working on feature branch ******
-* git fetch origin <parent_branch> (or) git pull origin <parent_branch>
+i)First Fecth all updates from the parent branch 
+* git fetch origin <parent_branch>
+ (or) 
+ git pull origin <parent_branch>  => git pull gets the updates and directly merges in to current branch 
+
+ii)Merge all the updates of parent branch in to your feature branch 
+* git merge origin/<parent_branch>
