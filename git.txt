@@ -1,0 +1,13 @@
+
+git init -> initialize a git repository
+git status -> checks the status of local repo status
+git add . -> add/stage all files to staging area
+git add <file_name> add/stage file to staging area
+git commit -m "commit msg" -> commit to local repo
+git push origin main
+(or)
+git push origin master
+
+git checkout -b "branch_name"
+**** If working on feature branch ******
+* git fetch origin <parent_branch> (or) git pull origin <parent_branch>
