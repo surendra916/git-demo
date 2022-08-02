@@ -1,0 +1,19 @@
+
+git init -> initialize a git repository
+git status -> checks the status of local repo status
+git add . -> add/stage all files to staging area
+git add <file_name> add/stage file to staging area
+git commit -m "commit msg" -> commit to local repo
+git push origin main
+(or)
+git push origin master
+
+git checkout -b "branch_name"
+**** If working on feature branch ******
+i)First Fecth all updates from the parent branch 
+* git fetch origin <parent_branch>
+ (or) 
+ git pull origin <parent_branch>  => git pull gets the updates and directly merges in to current branch 
+
+ii)Merge all the updates of parent branch in to your feature branch 
+* git merge origin/<parent_branch>
